@@ -1,0 +1,91 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f4f4f7;
+  color: #222;
+  margin: 0;
+  padding: 40px 20px;
+}
+ 
+.qoute-app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #222;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.input-row input{
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  color: #222;
+  background: white;
+}
+
+.input-row input:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.15);
+}
+
+.input-row button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.input-row button:hover {
+  background: #535bf2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qoute-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.qoute-card span {
+  font-style: italic;
+  color: #444;
+}
+
+.qoute-card button {
+  background: brown;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.qoute-card button:hover {
+  background: red;
+}
