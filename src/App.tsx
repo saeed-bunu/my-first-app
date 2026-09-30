@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import QouteCard from "./qoutecard";
+import QouteCard from "./QouteCard";
 import "./App.css";
 
 function App() {
